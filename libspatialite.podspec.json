@@ -57,7 +57,7 @@
     {
       "name": "geos",
       "dependencies": {
-        "spatialite/core": [
+        "libspatialite/core": [
 
         ],
         "geos": [
@@ -68,7 +68,7 @@
     {
       "name": "proj4",
       "dependencies": {
-        "spatialite/core": [
+        "libspatialite/core": [
 
         ],
         "proj4": [
@@ -79,7 +79,7 @@
     {
       "name": "freexl",
       "dependencies": {
-        "spatialite/core": [
+        "libspatialite/core": [
 
         ],
         "freexl": [
@@ -90,10 +90,10 @@
     {
       "name": "standard",
       "dependencies": {
-        "spatialite/proj4": [
+        "libspatialite/proj4": [
 
         ],
-        "spatialite/geos": [
+        "libspatialite/geos": [
 
         ]
       }
