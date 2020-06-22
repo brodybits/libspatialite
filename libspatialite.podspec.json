@@ -1,5 +1,5 @@
 {
-  "name": "spatialite-update",
+  "name": "libspatialite",
   "version": "4.1.1",
   "summary": "SpatiaLite is an open source library intended to extend the SQLite core to support fully fledged Spatial SQL capabilities.",
   "homepage": "https://www.gaia-gis.it/fossil/libspatialite/home",
