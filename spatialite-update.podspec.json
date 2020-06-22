@@ -22,17 +22,17 @@
     "osx": "10.6"
   },
   "source_files": [
-    "*.h",
-    "src/{gaiaaux,gaiageo}/gg_*.c",
-    "src/{dxf,gaiaexif,geopackage,md5,shapefiles,spatialite,srsinit,versioninfo,virtualtext,wfs}/*.c"
+    "libspatialite-4.1.1/*.h",
+    "libspatialite-4.1.1/src/{gaiaaux,gaiageo}/gg_*.c",
+    "libspatialite-4.1.1/src/{dxf,gaiaexif,geopackage,md5,shapefiles,spatialite,srsinit,versioninfo,virtualtext,wfs}/*.c"
   ],
   "preserve_paths": [
-    "src/**/*.h",
-    "src/**/*.c"
+    "libspatialite-4.1.1/src/**/*.h",
+    "libspatialite-4.1.1/src/**/*.c"
   ],
-  "public_header_files": "src/headers/**/*.h",
-  "private_header_files": "src/headers/spatialite_private.h",
-  "header_mappings_dir": "src/headers/",
+  "public_header_files": "libspatialite-4.1.1/src/headers/**/*.h",
+  "private_header_files": "libspatialite-4.1.1/src/headers/spatialite_private.h",
+  "header_mappings_dir": "libspatialite-4.1.1/src/headers/",
   "default_subspecs": [
     "standard"
   ],
